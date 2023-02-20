@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TestNgSalesforce
+Bundle-SymbolicName: TestNgSalesforce
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: TestNgSalesforce
+Export-Package: com.tekarch.SalesForce,
+ com.tekarch.base,
+ com.tekarch.utilityforsaleforce

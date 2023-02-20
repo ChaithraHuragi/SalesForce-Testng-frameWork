@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome(failed)">
+    <parameter name="browsername" value="Chrome"/>
+    <classes>
+      <class name="com.tekarch.SalesForce.SalesForceWithFrame">
+        <methods>
+          <include name="createAccountReport"/>
+          <include name="validateHome"/>
+          <include name="todaysDateLink"/>
+          <include name="quatarlyLink"/>
+          <include name="todaysDateLinkRecurssive"/>
+          <include name="stuckOppurtunitiesLink"/>
+          <include name="setupBeforeMethod"/>
+          <include name="oppurtunitiesPipelineLink"/>
+          <include name="editView"/>
+          <include name="todaysLeads"/>
+          <include name="validateHomeProfileName"/>
+          <include name="createNewViewinContacts"/>
+          <include name="createNewView"/>
+          <include name="mergeAccounts"/>
+          <include name="tearDownAfterMethod"/>
+          <include name="myUnreadLeadsValidation"/>
+          <include name="setUpBeforeTest"/>
+        </methods>
+      </class> <!-- com.tekarch.SalesForce.SalesForceWithFrame -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,2131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="38" passed="24" failed="14" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-20T01:44:41 EST" name="Suite" finished-at="2023-02-20T01:59:42 EST" duration-ms="900902">
+    <groups>
+    </groups>
+    <test started-at="2023-02-20T01:44:41 EST" name="Chrome" finished-at="2023-02-20T01:59:42 EST" duration-ms="900902">
+      <class name="com.tekarch.SalesForce.SalesForceWithFrame">
+        <test-method is-config="true" signature="setUpBeforeTest()[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:44:42 EST" name="setUpBeforeTest" finished-at="2023-02-20T01:44:42 EST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeTest -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:44:42 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:44:49 EST" duration-ms="6748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.errorMessageBlankPassword() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="errorMessageBlankPassword()[pri:1, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:44:49 EST" name="errorMessageBlankPassword" finished-at="2023-02-20T01:44:50 EST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessageBlankPassword -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:44:50 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:44:50 EST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.errorMessageBlankPassword() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:44:50 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:44:56 EST" duration-ms="5398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.loginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="loginPage()[pri:2, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:44:56 EST" name="loginPage" finished-at="2023-02-20T01:45:00 EST" duration-ms="4668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:00 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:45:01 EST" duration-ms="495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.loginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:01 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:45:06 EST" duration-ms="5428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.validateCheck() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="validateCheck()[pri:3, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:06 EST" name="validateCheck" finished-at="2023-02-20T01:45:14 EST" duration-ms="8012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheck -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:14 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:45:15 EST" duration-ms="105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.validateCheck() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:15 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:45:20 EST" duration-ms="5728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.forgotPassword() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="forgotPassword()[pri:4, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:20 EST" name="forgotPassword" finished-at="2023-02-20T01:45:22 EST" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:22 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:45:22 EST" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.forgotPassword() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:22 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:45:28 EST" duration-ms="5194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.errorWIthInvalidCred()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="errorWIthInvalidCred()[pri:5, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:28 EST" name="errorWIthInvalidCred" finished-at="2023-02-20T01:45:35 EST" duration-ms="7665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorWIthInvalidCred -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:35 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:45:36 EST" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.errorWIthInvalidCred()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:36 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:45:41 EST" duration-ms="5628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.userMenuDropDown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="userMenuDropDown()[pri:7, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:41 EST" name="userMenuDropDown" finished-at="2023-02-20T01:45:48 EST" duration-ms="6638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userMenuDropDown -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:48 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:45:48 EST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.userMenuDropDown()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:48 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:45:53 EST" duration-ms="5018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.mySettings() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="mySettings()[pri:8, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:45:53 EST" name="mySettings" finished-at="2023-02-20T01:46:16 EST" duration-ms="22605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySettings -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:46:16 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:46:16 EST" duration-ms="388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.mySettings() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:46:16 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:46:22 EST" duration-ms="5524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.devloperConsole()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="devloperConsole()[pri:9, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:46:22 EST" name="devloperConsole" finished-at="2023-02-20T01:46:28 EST" duration-ms="6002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- devloperConsole -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:46:28 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:46:28 EST" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.devloperConsole()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:46:28 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:46:33 EST" duration-ms="4833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createAccount() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="createAccount()[pri:10, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:46:33 EST" name="createAccount" finished-at="2023-02-20T01:46:52 EST" duration-ms="18915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:46:52 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:46:52 EST" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createAccount() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:46:52 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:46:57 EST" duration-ms="5146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.editView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="editView()[pri:12, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:46:57 EST" name="editView" finished-at="2023-02-20T01:47:06 EST" duration-ms="8788" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: docview
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: docview
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.tekarch.base.BaseClass.select(BaseClass.java:145)
+at com.tekarch.SalesForce.SalesForceWithFrame.editView(SalesForceWithFrame.java:663)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editView -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:47:06 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:47:06 EST" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.editView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:47:06 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:47:12 EST" duration-ms="5364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.mergeAccounts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="mergeAccounts()[pri:13, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:47:12 EST" name="mergeAccounts" finished-at="2023-02-20T01:47:33 EST" duration-ms="21102" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value=' Merge ']"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e829bad32f4af03bc46e331c8d982ae
+*** Element info: {Using=xpath, value=//input[@value=' Merge ']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value=' Merge ']"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e829bad32f4af03bc46e331c8d982ae
+*** Element info: {Using=xpath, value=//input[@value=' Merge ']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.tekarch.SalesForce.SalesForceWithFrame.mergeAccounts(SalesForceWithFrame.java:715)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeAccounts -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:47:33 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:47:33 EST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.mergeAccounts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:47:33 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:47:38 EST" duration-ms="5065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createAccountReport() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="createAccountReport()[pri:14, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:47:38 EST" name="createAccountReport" finished-at="2023-02-20T01:47:55 EST" duration-ms="17161" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="noTableContainer"]/div/div[1]/div[1]/div[1]/h1"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25cac574c7cb126f9670b1311f671f35
+*** Element info: {Using=xpath, value=//*[@id="noTableContainer"]/div/div[1]/div[1]/div[1]/h1}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="noTableContainer"]/div/div[1]/div[1]/div[1]/h1"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25cac574c7cb126f9670b1311f671f35
+*** Element info: {Using=xpath, value=//*[@id="noTableContainer"]/div/div[1]/div[1]/div[1]/h1}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.tekarch.SalesForce.SalesForceWithFrame.createAccountReport(SalesForceWithFrame.java:779)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountReport -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:47:56 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:47:56 EST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createAccountReport() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:47:56 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:48:01 EST" duration-ms="5520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.oppurtunities() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="oppurtunities()[pri:15, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:48:01 EST" name="oppurtunities" finished-at="2023-02-20T01:48:15 EST" duration-ms="13590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppurtunities -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:48:15 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:48:15 EST" duration-ms="300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.oppurtunities() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:48:15 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:48:20 EST" duration-ms="5279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.newOppurtunities() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="newOppurtunities()[pri:16, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:48:20 EST" name="newOppurtunities" finished-at="2023-02-20T01:48:32 EST" duration-ms="11871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newOppurtunities -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:48:32 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:48:33 EST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.newOppurtunities() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:48:33 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:48:38 EST" duration-ms="5201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.oppurtunitiesPipelineLink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="oppurtunitiesPipelineLink()[pri:17, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:48:38 EST" name="oppurtunitiesPipelineLink" finished-at="2023-02-20T01:48:44 EST" duration-ms="6224" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60682}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbf966bb499eae295b0f27d93fc13a42
+*** Element info: {Using=id, value=tryLexDialogX}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60682}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbf966bb499eae295b0f27d93fc13a42
+*** Element info: {Using=id, value=tryLexDialogX}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.tekarch.SalesForce.SalesForceWithFrame.oppurtunitiesPipelineLink(SalesForceWithFrame.java:874)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppurtunitiesPipelineLink -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:48:45 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:48:45 EST" duration-ms="450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.oppurtunitiesPipelineLink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:48:45 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:48:50 EST" duration-ms="5034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.stuckOppurtunitiesLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="stuckOppurtunitiesLink()[pri:18, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:48:50 EST" name="stuckOppurtunitiesLink" finished-at="2023-02-20T01:48:54 EST" duration-ms="3989" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a06f4e0b47cffbaf2e86ad20de355c19
+*** Element info: {Using=id, value=tryLexDialogX}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a06f4e0b47cffbaf2e86ad20de355c19
+*** Element info: {Using=id, value=tryLexDialogX}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.tekarch.SalesForce.SalesForceWithFrame.stuckOppurtunitiesLink(SalesForceWithFrame.java:900)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stuckOppurtunitiesLink -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:48:56 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:48:57 EST" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.stuckOppurtunitiesLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:48:57 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:49:02 EST" duration-ms="5217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.quatarlyLink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="quatarlyLink()[pri:19, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:49:02 EST" name="quatarlyLink" finished-at="2023-02-20T01:49:13 EST" duration-ms="11280" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6eea9081f151bcb179f7f9ba9160e37c
+*** Element info: {Using=id, value=tryLexDialogX}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6eea9081f151bcb179f7f9ba9160e37c
+*** Element info: {Using=id, value=tryLexDialogX}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.tekarch.SalesForce.SalesForceWithFrame.quatarlyLink(SalesForceWithFrame.java:925)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quatarlyLink -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:49:15 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:49:15 EST" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.quatarlyLink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:49:15 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:49:21 EST" duration-ms="5425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.leads() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="leads()[pri:20, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:49:21 EST" name="leads" finished-at="2023-02-20T01:49:35 EST" duration-ms="14607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leads -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:49:35 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:49:36 EST" duration-ms="451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.leads() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:49:36 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:49:41 EST" duration-ms="5229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.verifyDropDownInOppurtunities() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="verifyDropDownInOppurtunities()[pri:21, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:49:41 EST" name="verifyDropDownInOppurtunities" finished-at="2023-02-20T01:50:00 EST" duration-ms="18917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropDownInOppurtunities -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:50:00 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:50:00 EST" duration-ms="562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.verifyDropDownInOppurtunities() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:50:00 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:50:05 EST" duration-ms="5106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.myUnreadLeadsValidation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="myUnreadLeadsValidation()[pri:22, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:50:05 EST" name="myUnreadLeadsValidation" finished-at="2023-02-20T01:50:20 EST" duration-ms="14196" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#fcf"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a6828c7251b092e1c7d8e563eb195a8
+*** Element info: {Using=id, value=fcf}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#fcf"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a6828c7251b092e1c7d8e563eb195a8
+*** Element info: {Using=id, value=fcf}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.tekarch.SalesForce.SalesForceWithFrame.myUnreadLeadsValidation(SalesForceWithFrame.java:1035)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myUnreadLeadsValidation -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:50:20 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:50:20 EST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.myUnreadLeadsValidation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:50:20 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:50:25 EST" duration-ms="5122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.todaysLeads() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="todaysLeads()[pri:23, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:50:25 EST" name="todaysLeads" finished-at="2023-02-20T01:50:37 EST" duration-ms="11457" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60946}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddad49a6e12931b0bcd0fefe7dae9794
+*** Element info: {Using=tag name, value=option}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60946}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddad49a6e12931b0bcd0fefe7dae9794
+*** Element info: {Using=tag name, value=option}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+at org.openqa.selenium.remote.RemoteWebElement.findElementsByTagName(RemoteWebElement.java:281)
+at org.openqa.selenium.By$ByTagName.findElements(By.java:312)
+at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
+at org.openqa.selenium.support.ui.Select.getOptions(Select.java:78)
+at org.openqa.selenium.support.ui.Select.getFirstSelectedOption(Select.java:96)
+at com.tekarch.base.BaseClass.returnSelectString(BaseClass.java:152)
+at com.tekarch.SalesForce.SalesForceWithFrame.todaysLeads(SalesForceWithFrame.java:1064)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todaysLeads -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:50:37 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:50:38 EST" duration-ms="366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.todaysLeads() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:50:38 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:50:43 EST" duration-ms="5084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.NewLeadCreation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="NewLeadCreation()[pri:24, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:50:43 EST" name="NewLeadCreation" finished-at="2023-02-20T01:51:08 EST" duration-ms="24798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewLeadCreation -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:51:08 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:51:08 EST" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.NewLeadCreation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:51:08 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:51:13 EST" duration-ms="4865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewContact() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="createNewContact()[pri:25, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:51:13 EST" name="createNewContact" finished-at="2023-02-20T01:51:32 EST" duration-ms="18837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContact -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:51:32 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:51:32 EST" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewContact() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:51:32 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:51:37 EST" duration-ms="5029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewViewinContacts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="createNewViewinContacts()[pri:26, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:51:37 EST" name="createNewViewinContacts" finished-at="2023-02-20T01:51:53 EST" duration-ms="15880" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='fcf']"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05f724983d33dfdbf96d0d25d4ad8157
+*** Element info: {Using=xpath, value=//select[@name='fcf']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//select[@name='fcf']"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05f724983d33dfdbf96d0d25d4ad8157
+*** Element info: {Using=xpath, value=//select[@name='fcf']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.tekarch.SalesForce.SalesForceWithFrame.createNewViewinContacts(SalesForceWithFrame.java:1190)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewViewinContacts -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:51:53 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:51:53 EST" duration-ms="345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewViewinContacts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:51:53 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:51:59 EST" duration-ms="5752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.recentlyCreated() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="recentlyCreated()[pri:27, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:51:59 EST" name="recentlyCreated" finished-at="2023-02-20T01:52:09 EST" duration-ms="9996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recentlyCreated -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:52:09 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:52:09 EST" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.recentlyCreated() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:52:09 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:52:16 EST" duration-ms="6689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.myContactView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="myContactView()[pri:28, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:52:16 EST" name="myContactView" finished-at="2023-02-20T01:52:31 EST" duration-ms="14416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myContactView -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:52:31 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:52:31 EST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.myContactView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:52:31 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:52:36 EST" duration-ms="5131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.myContactViewInContacts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="myContactViewInContacts()[pri:29, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:52:36 EST" name="myContactViewInContacts" finished-at="2023-02-20T01:52:50 EST" duration-ms="14085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myContactViewInContacts -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:52:50 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:52:50 EST" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.myContactViewInContacts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:52:50 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:52:55 EST" duration-ms="5054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewViewInContacts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="createNewViewInContacts()[pri:30, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:52:55 EST" name="createNewViewInContacts" finished-at="2023-02-20T01:53:12 EST" duration-ms="16548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewViewInContacts -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:53:12 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:53:12 EST" duration-ms="495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewViewInContacts() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:53:12 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:53:17 EST" duration-ms="5073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.cancelCreateNewView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="cancelCreateNewView()[pri:31, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:53:17 EST" name="cancelCreateNewView" finished-at="2023-02-20T01:53:36 EST" duration-ms="18840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelCreateNewView -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:53:36 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:53:37 EST" duration-ms="489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.cancelCreateNewView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:53:37 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:53:42 EST" duration-ms="5087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewContactForInvalid() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="createNewContactForInvalid()[pri:32, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:53:42 EST" name="createNewContactForInvalid" finished-at="2023-02-20T01:53:55 EST" duration-ms="13232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactForInvalid -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:53:55 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:53:55 EST" duration-ms="336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewContactForInvalid() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:53:55 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:54:01 EST" duration-ms="5242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.validateHome() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="validateHome()[pri:33, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:54:01 EST" name="validateHome" finished-at="2023-02-20T01:54:08 EST" duration-ms="7141" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 07d11135b12bae014732ef18f65977ff
+*** Element info: {Using=id, value=tryLexDialogX}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 07d11135b12bae014732ef18f65977ff
+*** Element info: {Using=id, value=tryLexDialogX}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.tekarch.SalesForce.SalesForceWithFrame.validateHome(SalesForceWithFrame.java:1429)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHome -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:54:10 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:54:11 EST" duration-ms="345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.validateHome() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:54:11 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:54:16 EST" duration-ms="5149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.validateHomeProfileName() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="validateHomeProfileName()[pri:34, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:54:16 EST" name="validateHomeProfileName" finished-at="2023-02-20T01:54:22 EST" duration-ms="6498" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 179a971c13c96309975e3dea9ed92766
+*** Element info: {Using=id, value=tryLexDialogX}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 179a971c13c96309975e3dea9ed92766
+*** Element info: {Using=id, value=tryLexDialogX}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.tekarch.SalesForce.SalesForceWithFrame.validateHomeProfileName(SalesForceWithFrame.java:1464)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomeProfileName -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:54:24 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:54:24 EST" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.validateHomeProfileName() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:54:24 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:54:30 EST" duration-ms="5527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.RemoveTab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="RemoveTab()[pri:35, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:54:30 EST" name="RemoveTab" finished-at="2023-02-20T01:54:51 EST" duration-ms="21622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveTab -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:54:51 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:54:52 EST" duration-ms="343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.RemoveTab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:54:52 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:54:58 EST" duration-ms="5853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.verifyRemoveTab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="verifyRemoveTab()[pri:35, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:54:58 EST" name="verifyRemoveTab" finished-at="2023-02-20T01:55:11 EST" depends-on-methods="com.tekarch.SalesForce.SalesForceWithFrame.RemoveTab" duration-ms="13117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveTab -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:55:11 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:55:11 EST" duration-ms="469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.verifyRemoveTab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:55:11 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:55:16 EST" duration-ms="5089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.todaysDateLink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="todaysDateLink()[pri:36, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:55:16 EST" name="todaysDateLink" finished-at="2023-02-20T01:55:26 EST" duration-ms="10105" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d1d74cfdeacaba1caebefd21bc12e2f
+*** Element info: {Using=id, value=tryLexDialogX}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#tryLexDialogX"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d1d74cfdeacaba1caebefd21bc12e2f
+*** Element info: {Using=id, value=tryLexDialogX}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.tekarch.SalesForce.SalesForceWithFrame.todaysDateLink(SalesForceWithFrame.java:1572)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todaysDateLink -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:55:27 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:55:27 EST" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.todaysDateLink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:55:27 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:55:32 EST" duration-ms="4734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.todaysDateLinkRecurssive() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="todaysDateLinkRecurssive()[pri:37, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:55:32 EST" name="todaysDateLinkRecurssive" finished-at="2023-02-20T01:58:13 EST" duration-ms="161379" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/form[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/div[29]/span[1]/div[1]/div[1]/div[1]/span[1]/a[1]/span[1]"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d96c56d843e5faa02a7a69f5e633b61
+*** Element info: {Using=xpath, value=//body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/form[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/div[29]/span[1]/div[1]/div[1]/div[1]/span[1]/a[1]/span[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/form[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/div[29]/span[1]/div[1]/div[1]/div[1]/span[1]/a[1]/span[1]"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d96c56d843e5faa02a7a69f5e633b61
+*** Element info: {Using=xpath, value=//body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/form[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/div[29]/span[1]/div[1]/div[1]/div[1]/span[1]/a[1]/span[1]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.tekarch.SalesForce.SalesForceWithFrame.todaysDateLinkRecurssive(SalesForceWithFrame.java:1667)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todaysDateLinkRecurssive -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:58:13 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:58:14 EST" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.todaysDateLinkRecurssive() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:58:14 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:58:19 EST" duration-ms="5363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.myProfileOptions() throws java.lang.InterruptedException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="myProfileOptions()[pri:39, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:58:19 EST" name="myProfileOptions" finished-at="2023-02-20T01:59:17 EST" duration-ms="58183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myProfileOptions -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:59:17 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:59:17 EST" duration-ms="76" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.myProfileOptions() throws java.lang.InterruptedException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method is-config="true" signature="setupBeforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:59:17 EST" name="setupBeforeMethod" finished-at="2023-02-20T01:59:24 EST" duration-ms="6455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeMethod -->
+        <test-method signature="createNewView()[pri:40, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:59:24 EST" name="createNewView" finished-at="2023-02-20T01:59:42 EST" duration-ms="18018" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#\30 0BDn00000L9SD8_listSelect"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31e578caa57830a58c52da38df067c67
+*** Element info: {Using=id, value=00BDn00000L9SD8_listSelect}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\30 0BDn00000L9SD8_listSelect"}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CBGDHB', ip: '192.168.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31e578caa57830a58c52da38df067c67
+*** Element info: {Using=id, value=00BDn00000L9SD8_listSelect}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.tekarch.SalesForce.SalesForceWithFrame.createNewView(SalesForceWithFrame.java:638)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewView -->
+        <test-method is-config="true" signature="tearDownAfterMethod(java.lang.reflect.Method)[pri:0, instance:com.tekarch.SalesForce.SalesForceWithFrame@52b1beb6]" started-at="2023-02-20T01:59:42 EST" name="tearDownAfterMethod" finished-at="2023-02-20T01:59:42 EST" duration-ms="354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewView() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+      </class> <!-- com.tekarch.SalesForce.SalesForceWithFrame -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

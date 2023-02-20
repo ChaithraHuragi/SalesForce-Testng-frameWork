@@ -1,0 +1,1643 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 14 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>F:\Chaithra\workspace\TestNgSalesforce\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">38 methods, 14 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="createAccountReport">createAccountReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="createNewView">createNewView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="createNewViewinContacts">createNewViewinContacts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="editView">editView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="mergeAccounts">mergeAccounts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="myUnreadLeadsValidation">myUnreadLeadsValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="oppurtunitiesPipelineLink">oppurtunitiesPipelineLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="quatarlyLink">quatarlyLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="stuckOppurtunitiesLink">stuckOppurtunitiesLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="todaysDateLink">todaysDateLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="todaysDateLinkRecurssive">todaysDateLinkRecurssive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="todaysLeads">todaysLeads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="validateHome">validateHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="validateHomeProfileName">validateHomeProfileName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="NewLeadCreation">NewLeadCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="RemoveTab">RemoveTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="cancelCreateNewView">cancelCreateNewView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="createAccount">createAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="createNewContact">createNewContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="createNewContactForInvalid">createNewContactForInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="createNewViewInContacts">createNewViewInContacts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="devloperConsole">devloperConsole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="errorMessageBlankPassword">errorMessageBlankPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="errorWIthInvalidCred">errorWIthInvalidCred</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="forgotPassword">forgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="leads">leads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="loginPage">loginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="myContactView">myContactView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="myContactViewInContacts">myContactViewInContacts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="myProfileOptions">myProfileOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="mySettings">mySettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="newOppurtunities">newOppurtunities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="oppurtunities">oppurtunities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="recentlyCreated">recentlyCreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="userMenuDropDown">userMenuDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="validateCheck">validateCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="verifyDropDownInOppurtunities">verifyDropDownInOppurtunities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.tekarch.SalesForce.SalesForceWithFrame" class="method navigator-link" hash-for-method="verifyRemoveTab">verifyRemoveTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tekarch.SalesForce.SalesForceWithFrame</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountReport">
+                  </a> <!-- createAccountReport -->
+                  <span class="method-name">createAccountReport</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;noTableContainer&quot;]/div/div[1]/div[1]/div[1]/h1&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25cac574c7cb126f9670b1311f671f35
+*** Element info: {Using=xpath, value=//*[@id=&quot;noTableContainer&quot;]/div/div[1]/div[1]/div[1]/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tekarch.SalesForce.SalesForceWithFrame.createAccountReport(SalesForceWithFrame.java:779)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewView">
+                  </a> <!-- createNewView -->
+                  <span class="method-name">createNewView</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#\30 0BDn00000L9SD8_listSelect&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31e578caa57830a58c52da38df067c67
+*** Element info: {Using=id, value=00BDn00000L9SD8_listSelect}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tekarch.SalesForce.SalesForceWithFrame.createNewView(SalesForceWithFrame.java:638)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewViewinContacts">
+                  </a> <!-- createNewViewinContacts -->
+                  <span class="method-name">createNewViewinContacts</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//select[@name=&apos;fcf&apos;]&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05f724983d33dfdbf96d0d25d4ad8157
+*** Element info: {Using=xpath, value=//select[@name=&apos;fcf&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tekarch.SalesForce.SalesForceWithFrame.createNewViewinContacts(SalesForceWithFrame.java:1190)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editView">
+                  </a> <!-- editView -->
+                  <span class="method-name">editView</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: docview
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.tekarch.base.BaseClass.select(BaseClass.java:145)
+	at com.tekarch.SalesForce.SalesForceWithFrame.editView(SalesForceWithFrame.java:663)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mergeAccounts">
+                  </a> <!-- mergeAccounts -->
+                  <span class="method-name">mergeAccounts</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos; Merge &apos;]&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60501}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e829bad32f4af03bc46e331c8d982ae
+*** Element info: {Using=xpath, value=//input[@value=&apos; Merge &apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tekarch.SalesForce.SalesForceWithFrame.mergeAccounts(SalesForceWithFrame.java:715)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="myUnreadLeadsValidation">
+                  </a> <!-- myUnreadLeadsValidation -->
+                  <span class="method-name">myUnreadLeadsValidation</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#fcf&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a6828c7251b092e1c7d8e563eb195a8
+*** Element info: {Using=id, value=fcf}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tekarch.SalesForce.SalesForceWithFrame.myUnreadLeadsValidation(SalesForceWithFrame.java:1035)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oppurtunitiesPipelineLink">
+                  </a> <!-- oppurtunitiesPipelineLink -->
+                  <span class="method-name">oppurtunitiesPipelineLink</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#tryLexDialogX&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60682}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbf966bb499eae295b0f27d93fc13a42
+*** Element info: {Using=id, value=tryLexDialogX}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tekarch.SalesForce.SalesForceWithFrame.oppurtunitiesPipelineLink(SalesForceWithFrame.java:874)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quatarlyLink">
+                  </a> <!-- quatarlyLink -->
+                  <span class="method-name">quatarlyLink</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#tryLexDialogX&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6eea9081f151bcb179f7f9ba9160e37c
+*** Element info: {Using=id, value=tryLexDialogX}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tekarch.SalesForce.SalesForceWithFrame.quatarlyLink(SalesForceWithFrame.java:925)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stuckOppurtunitiesLink">
+                  </a> <!-- stuckOppurtunitiesLink -->
+                  <span class="method-name">stuckOppurtunitiesLink</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#tryLexDialogX&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a06f4e0b47cffbaf2e86ad20de355c19
+*** Element info: {Using=id, value=tryLexDialogX}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tekarch.SalesForce.SalesForceWithFrame.stuckOppurtunitiesLink(SalesForceWithFrame.java:900)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="todaysDateLink">
+                  </a> <!-- todaysDateLink -->
+                  <span class="method-name">todaysDateLink</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#tryLexDialogX&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d1d74cfdeacaba1caebefd21bc12e2f
+*** Element info: {Using=id, value=tryLexDialogX}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tekarch.SalesForce.SalesForceWithFrame.todaysDateLink(SalesForceWithFrame.java:1572)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="todaysDateLinkRecurssive">
+                  </a> <!-- todaysDateLinkRecurssive -->
+                  <span class="method-name">todaysDateLinkRecurssive</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/form[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/div[29]/span[1]/div[1]/div[1]/div[1]/span[1]/a[1]/span[1]&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d96c56d843e5faa02a7a69f5e633b61
+*** Element info: {Using=xpath, value=//body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/form[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[2]/div[29]/span[1]/div[1]/div[1]/div[1]/span[1]/a[1]/span[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tekarch.SalesForce.SalesForceWithFrame.todaysDateLinkRecurssive(SalesForceWithFrame.java:1667)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="todaysLeads">
+                  </a> <!-- todaysLeads -->
+                  <span class="method-name">todaysLeads</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60946}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddad49a6e12931b0bcd0fefe7dae9794
+*** Element info: {Using=tag name, value=option}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:204)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementsByTagName(RemoteWebElement.java:281)
+	at org.openqa.selenium.By$ByTagName.findElements(By.java:312)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:177)
+	at org.openqa.selenium.support.ui.Select.getOptions(Select.java:78)
+	at org.openqa.selenium.support.ui.Select.getFirstSelectedOption(Select.java:96)
+	at com.tekarch.base.BaseClass.returnSelectString(BaseClass.java:152)
+	at com.tekarch.SalesForce.SalesForceWithFrame.todaysLeads(SalesForceWithFrame.java:1064)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHome">
+                  </a> <!-- validateHome -->
+                  <span class="method-name">validateHome</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#tryLexDialogX&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 07d11135b12bae014732ef18f65977ff
+*** Element info: {Using=id, value=tryLexDialogX}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tekarch.SalesForce.SalesForceWithFrame.validateHome(SalesForceWithFrame.java:1429)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHomeProfileName">
+                  </a> <!-- validateHomeProfileName -->
+                  <span class="method-name">validateHomeProfileName</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#tryLexDialogX&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3CBGDHB&apos;, ip: &apos;192.168.1.253&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\madhu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 179a971c13c96309975e3dea9ed92766
+*** Element info: {Using=id, value=tryLexDialogX}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tekarch.SalesForce.SalesForceWithFrame.validateHomeProfileName(SalesForceWithFrame.java:1464)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tekarch.SalesForce.SalesForceWithFrame</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewLeadCreation">
+                  </a> <!-- NewLeadCreation -->
+                  <span class="method-name">NewLeadCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RemoveTab">
+                  </a> <!-- RemoveTab -->
+                  <span class="method-name">RemoveTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelCreateNewView">
+                  </a> <!-- cancelCreateNewView -->
+                  <span class="method-name">cancelCreateNewView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount">
+                  </a> <!-- createAccount -->
+                  <span class="method-name">createAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewContact">
+                  </a> <!-- createNewContact -->
+                  <span class="method-name">createNewContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewContactForInvalid">
+                  </a> <!-- createNewContactForInvalid -->
+                  <span class="method-name">createNewContactForInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewViewInContacts">
+                  </a> <!-- createNewViewInContacts -->
+                  <span class="method-name">createNewViewInContacts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="devloperConsole">
+                  </a> <!-- devloperConsole -->
+                  <span class="method-name">devloperConsole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessageBlankPassword">
+                  </a> <!-- errorMessageBlankPassword -->
+                  <span class="method-name">errorMessageBlankPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorWIthInvalidCred">
+                  </a> <!-- errorWIthInvalidCred -->
+                  <span class="method-name">errorWIthInvalidCred</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPassword">
+                  </a> <!-- forgotPassword -->
+                  <span class="method-name">forgotPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="leads">
+                  </a> <!-- leads -->
+                  <span class="method-name">leads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPage">
+                  </a> <!-- loginPage -->
+                  <span class="method-name">loginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="myContactView">
+                  </a> <!-- myContactView -->
+                  <span class="method-name">myContactView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="myContactViewInContacts">
+                  </a> <!-- myContactViewInContacts -->
+                  <span class="method-name">myContactViewInContacts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="myProfileOptions">
+                  </a> <!-- myProfileOptions -->
+                  <span class="method-name">myProfileOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mySettings">
+                  </a> <!-- mySettings -->
+                  <span class="method-name">mySettings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newOppurtunities">
+                  </a> <!-- newOppurtunities -->
+                  <span class="method-name">newOppurtunities</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oppurtunities">
+                  </a> <!-- oppurtunities -->
+                  <span class="method-name">oppurtunities</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recentlyCreated">
+                  </a> <!-- recentlyCreated -->
+                  <span class="method-name">recentlyCreated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userMenuDropDown">
+                  </a> <!-- userMenuDropDown -->
+                  <span class="method-name">userMenuDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheck">
+                  </a> <!-- validateCheck -->
+                  <span class="method-name">validateCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDropDownInOppurtunities">
+                  </a> <!-- verifyDropDownInOppurtunities -->
+                  <span class="method-name">verifyDropDownInOppurtunities</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRemoveTab">
+                  </a> <!-- verifyRemoveTab -->
+                  <span class="method-name">verifyRemoveTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Chaithra\workspace\TestNgSalesforce\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Chrome&quot;&gt;
+    &lt;parameter name=&quot;browsername&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tekarch.SalesForce.SalesForceWithFrame&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(38);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'todaysDateLinkRecurssive')
+data.setCell(0, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(0, 3, 161379);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'myProfileOptions')
+data.setCell(1, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(1, 3, 58183);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'NewLeadCreation')
+data.setCell(2, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(2, 3, 24798);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'mySettings')
+data.setCell(3, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(3, 3, 22605);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'RemoveTab')
+data.setCell(4, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(4, 3, 21622);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'mergeAccounts')
+data.setCell(5, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(5, 3, 21102);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyDropDownInOppurtunities')
+data.setCell(6, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(6, 3, 18917);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createAccount')
+data.setCell(7, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(7, 3, 18915);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'cancelCreateNewView')
+data.setCell(8, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(8, 3, 18840);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createNewContact')
+data.setCell(9, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(9, 3, 18837);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createNewView')
+data.setCell(10, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(10, 3, 18018);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createAccountReport')
+data.setCell(11, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(11, 3, 17161);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'createNewViewInContacts')
+data.setCell(12, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(12, 3, 16548);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'createNewViewinContacts')
+data.setCell(13, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(13, 3, 15880);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'leads')
+data.setCell(14, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(14, 3, 14607);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'myContactView')
+data.setCell(15, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(15, 3, 14416);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'myUnreadLeadsValidation')
+data.setCell(16, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(16, 3, 14196);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'myContactViewInContacts')
+data.setCell(17, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(17, 3, 14085);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'oppurtunities')
+data.setCell(18, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(18, 3, 13590);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'createNewContactForInvalid')
+data.setCell(19, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(19, 3, 13232);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyRemoveTab')
+data.setCell(20, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(20, 3, 13117);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'newOppurtunities')
+data.setCell(21, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(21, 3, 11871);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'todaysLeads')
+data.setCell(22, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(22, 3, 11457);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'quatarlyLink')
+data.setCell(23, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(23, 3, 11280);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'todaysDateLink')
+data.setCell(24, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(24, 3, 10105);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'recentlyCreated')
+data.setCell(25, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(25, 3, 9996);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'editView')
+data.setCell(26, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(26, 3, 8788);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'validateCheck')
+data.setCell(27, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(27, 3, 8012);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'errorWIthInvalidCred')
+data.setCell(28, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(28, 3, 7665);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'validateHome')
+data.setCell(29, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(29, 3, 7141);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'userMenuDropDown')
+data.setCell(30, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(30, 3, 6638);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'validateHomeProfileName')
+data.setCell(31, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(31, 3, 6498);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'oppurtunitiesPipelineLink')
+data.setCell(32, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(32, 3, 6224);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'devloperConsole')
+data.setCell(33, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(33, 3, 6002);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'loginPage')
+data.setCell(34, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(34, 3, 4668);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'stuckOppurtunitiesLink')
+data.setCell(35, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(35, 3, 3989);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'forgotPassword')
+data.setCell(36, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(36, 3, 1636);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'errorMessageBlankPassword')
+data.setCell(37, 2, 'com.tekarch.SalesForce.SalesForceWithFrame')
+data.setCell(37, 3, 1333);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tekarch.SalesForce.SalesForceWithFrame</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpBeforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.errorMessageBlankPassword() th...)</span>
+                <span class="method-start">484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">errorMessageBlankPassword</span>
+                <span class="method-start">7233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.errorMessageBlankPassword() throws jav...)</span>
+                <span class="method-start">8571 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.loginPage())</span>
+                <span class="method-start">8687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPage</span>
+                <span class="method-start">14085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.loginPage())</span>
+                <span class="method-start">18755 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.validateCheck() throws java.la...)</span>
+                <span class="method-start">19251 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCheck</span>
+                <span class="method-start">24680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.validateCheck() throws java.lang.Inter...)</span>
+                <span class="method-start">32694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.forgotPassword() throws java.i...)</span>
+                <span class="method-start">32799 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgotPassword</span>
+                <span class="method-start">38528 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.forgotPassword() throws java.io.IOExce...)</span>
+                <span class="method-start">40165 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.errorWIthInvalidCred())</span>
+                <span class="method-start">40650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">errorWIthInvalidCred</span>
+                <span class="method-start">45844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.errorWIthInvalidCred())</span>
+                <span class="method-start">53510 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.userMenuDropDown())</span>
+                <span class="method-start">53841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userMenuDropDown</span>
+                <span class="method-start">59470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.userMenuDropDown())</span>
+                <span class="method-start">66109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.mySettings() throws java.lang....)</span>
+                <span class="method-start">66389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mySettings</span>
+                <span class="method-start">71407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.mySettings() throws java.lang.Interrup...)</span>
+                <span class="method-start">94013 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.devloperConsole())</span>
+                <span class="method-start">94401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">devloperConsole</span>
+                <span class="method-start">99926 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.devloperConsole())</span>
+                <span class="method-start">105930 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.createAccount() throws java.la...)</span>
+                <span class="method-start">106169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccount</span>
+                <span class="method-start">111002 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.createAccount() throws java.lang.Inter...)</span>
+                <span class="method-start">129919 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.editView() throws java.lang.In...)</span>
+                <span class="method-start">130235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">editView</span>
+                <span class="method-start">135381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.editView() throws java.lang.Interrupte...)</span>
+                <span class="method-start">144377 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.mergeAccounts() throws java.la...)</span>
+                <span class="method-start">144583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mergeAccounts</span>
+                <span class="method-start">149949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.mergeAccounts() throws java.lang.Inter...)</span>
+                <span class="method-start">171265 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.createAccountReport() throws j...)</span>
+                <span class="method-start">171467 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createAccountReport</span>
+                <span class="method-start">176532 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.createAccountReport() throws java.lang...)</span>
+                <span class="method-start">193865 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.oppurtunities() throws java.la...)</span>
+                <span class="method-start">194058 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">oppurtunities</span>
+                <span class="method-start">199578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.oppurtunities() throws java.lang.Inter...)</span>
+                <span class="method-start">213169 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.newOppurtunities() throws java...)</span>
+                <span class="method-start">213469 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newOppurtunities</span>
+                <span class="method-start">218748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.newOppurtunities() throws java.lang.In...)</span>
+                <span class="method-start">230620 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.oppurtunitiesPipelineLink() th...)</span>
+                <span class="method-start">230808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">oppurtunitiesPipelineLink</span>
+                <span class="method-start">236009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.oppurtunitiesPipelineLink() throws jav...)</span>
+                <span class="method-start">243214 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.stuckOppurtunitiesLink())</span>
+                <span class="method-start">243664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">stuckOppurtunitiesLink</span>
+                <span class="method-start">248699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.stuckOppurtunitiesLink())</span>
+                <span class="method-start">254615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.quatarlyLink() throws java.lan...)</span>
+                <span class="method-start">254821 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quatarlyLink</span>
+                <span class="method-start">260038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.quatarlyLink() throws java.lang.Interr...)</span>
+                <span class="method-start">273257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.leads() throws java.lang.Inter...)</span>
+                <span class="method-start">273428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">leads</span>
+                <span class="method-start">278853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.leads() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">293461 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.verifyDropDownInOppurtunities(...)</span>
+                <span class="method-start">293913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDropDownInOppurtunities</span>
+                <span class="method-start">299142 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.verifyDropDownInOppurtunities() throws...)</span>
+                <span class="method-start">318062 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.myUnreadLeadsValidation() thro...)</span>
+                <span class="method-start">318625 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">myUnreadLeadsValidation</span>
+                <span class="method-start">323731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.myUnreadLeadsValidation() throws java....)</span>
+                <span class="method-start">338358 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.todaysLeads() throws java.lang...)</span>
+                <span class="method-start">338578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">todaysLeads</span>
+                <span class="method-start">343700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.todaysLeads() throws java.lang.Interru...)</span>
+                <span class="method-start">355542 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.NewLeadCreation() throws java....)</span>
+                <span class="method-start">355909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NewLeadCreation</span>
+                <span class="method-start">360993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.NewLeadCreation() throws java.lang.Int...)</span>
+                <span class="method-start">385792 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewContact() throws java...)</span>
+                <span class="method-start">386264 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewContact</span>
+                <span class="method-start">391129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewContact() throws java.lang.In...)</span>
+                <span class="method-start">409967 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewViewinContacts() thro...)</span>
+                <span class="method-start">410247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createNewViewinContacts</span>
+                <span class="method-start">415276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewViewinContacts() throws java....)</span>
+                <span class="method-start">431398 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.recentlyCreated() throws java....)</span>
+                <span class="method-start">431744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">recentlyCreated</span>
+                <span class="method-start">437496 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.recentlyCreated() throws java.lang.Int...)</span>
+                <span class="method-start">447493 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.myContactView() throws java.la...)</span>
+                <span class="method-start">447744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">myContactView</span>
+                <span class="method-start">454434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.myContactView() throws java.lang.Inter...)</span>
+                <span class="method-start">468852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.myContactViewInContacts() thro...)</span>
+                <span class="method-start">469039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">myContactViewInContacts</span>
+                <span class="method-start">474170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.myContactViewInContacts() throws java....)</span>
+                <span class="method-start">488255 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewViewInContacts() thro...)</span>
+                <span class="method-start">488521 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewViewInContacts</span>
+                <span class="method-start">493575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewViewInContacts() throws java....)</span>
+                <span class="method-start">510124 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.cancelCreateNewView() throws j...)</span>
+                <span class="method-start">510620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cancelCreateNewView</span>
+                <span class="method-start">515694 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.cancelCreateNewView() throws java.lang...)</span>
+                <span class="method-start">534535 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewContactForInvalid() t...)</span>
+                <span class="method-start">535024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewContactForInvalid</span>
+                <span class="method-start">540112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewContactForInvalid() throws ja...)</span>
+                <span class="method-start">553345 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.validateHome() throws java.lan...)</span>
+                <span class="method-start">553682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateHome</span>
+                <span class="method-start">558924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.validateHome() throws java.lang.Interr...)</span>
+                <span class="method-start">568445 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.validateHomeProfileName() thro...)</span>
+                <span class="method-start">568790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateHomeProfileName</span>
+                <span class="method-start">573939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.validateHomeProfileName() throws java....)</span>
+                <span class="method-start">582299 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.RemoveTab() throws java.lang.I...)</span>
+                <span class="method-start">582526 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RemoveTab</span>
+                <span class="method-start">588053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.RemoveTab() throws java.lang.Interrupt...)</span>
+                <span class="method-start">609675 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.verifyRemoveTab() throws java....)</span>
+                <span class="method-start">610018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRemoveTab</span>
+                <span class="method-start">615871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.verifyRemoveTab() throws java.lang.Int...)</span>
+                <span class="method-start">628990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.todaysDateLink() throws java.l...)</span>
+                <span class="method-start">629460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">todaysDateLink</span>
+                <span class="method-start">634549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.todaysDateLink() throws java.lang.Inte...)</span>
+                <span class="method-start">644975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.todaysDateLinkRecurssive() thr...)</span>
+                <span class="method-start">645109 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">todaysDateLinkRecurssive</span>
+                <span class="method-start">649843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.todaysDateLinkRecurssive() throws java...)</span>
+                <span class="method-start">811593 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.myProfileOptions() throws java...)</span>
+                <span class="method-start">811840 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">myProfileOptions</span>
+                <span class="method-start">817203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.myProfileOptions() throws java.lang.In...)</span>
+                <span class="method-start">875388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBeforeMethod(Chrome, public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewView() throws java.la...)</span>
+                <span class="method-start">875465 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createNewView</span>
+                <span class="method-start">881920 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterMethod(public static void com.tekarch.SalesForce.SalesForceWithFrame.createNewView() throws java.lang.Inter...)</span>
+                <span class="method-start">900200 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
